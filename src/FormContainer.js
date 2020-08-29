@@ -22,7 +22,7 @@ handleChange (event) {
   const {name, value, type, checked} = event.target
   type === "checkbox" ? 
   this.setState ({
-              [name] : checked            
+              [name]:checked            
         })
               
           :    this.setState ({
